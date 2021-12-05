@@ -30,8 +30,8 @@ def DrawMid(x1, y1, x2, y2):
             e += upInc
         else:
             e += downInc
-        xs.append(round(x))
-        ys.append(round(y))
+        xs.append(x)
+        ys.append(y)
 
 
 ###########################ploting part##################
